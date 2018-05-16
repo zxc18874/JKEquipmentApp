@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jk.jkequipmentapp.MainActivity">
+
+
+
+    <com.jk.jkequipmentapp.WaveProgressView
+        android:id="@+id/waveProgressbar"
+        android:background="@drawable/container_bg"
+android:layout_gravity="center"
+    android:layout_width="130dp"
+    android:layout_height="260dp" />
+<Button
+    android:id="@+id/setprogress_btn"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="设置水位"/>
+    <Button
+        android:id="@+id/setprogress_btn1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="设置水位"
+        android:layout_gravity="bottom"/>
+</FrameLayout>
