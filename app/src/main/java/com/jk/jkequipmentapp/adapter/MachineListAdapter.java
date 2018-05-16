@@ -31,6 +31,7 @@ public class MachineListAdapter extends RecyclerView.Adapter {
     //定义一个设置点击监听器的方法
     public void setOnItemClickListener(OnItemClickListener itemClickListener) {
         this.mItemClickListener = itemClickListener;
+
     }
     @Override
     public int getItemCount() {
