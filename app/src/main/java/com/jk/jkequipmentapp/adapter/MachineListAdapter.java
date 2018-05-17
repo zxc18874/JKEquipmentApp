@@ -36,6 +36,7 @@ public class MachineListAdapter extends RecyclerView.Adapter {
     @Override
     public int getItemCount() {
         // TODO Auto-generated method stub
+
         return mDatas.size();
 
 
